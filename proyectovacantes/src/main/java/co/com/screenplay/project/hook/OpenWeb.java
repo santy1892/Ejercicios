@@ -21,7 +21,7 @@ public class OpenWeb implements Task {
         actor.attemptsTo(Open.url(pathWebURL));
     }
 
-    public static Performable broserURL() {
+    public static Performable broserURL(String baseUrl) {
         return instrumented(OpenWeb.class);
     }
 }
