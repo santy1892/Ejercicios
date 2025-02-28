@@ -9,6 +9,6 @@ public class Constants {
     }
 
     public static final String BASE_URL = SerenitySystemProperties.getProperties().getValue(ThucydidesSystemProperty.WEBDRIVER_BASE_URL, "environments.default.webdriver.base.url");
-    public static final int TIME_SHORT=5;
-    public static final String TITLE ="test";
+    public static final int TIME_SHORT=3;
+    public static final String TITLE ="OrangeHRM";
 }
